@@ -98,34 +98,18 @@ This project uses several mathematical concepts:
 
 Used to calculate the distance between facial landmark coordinates.
 
-\[
-d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}
-\]
 
 **2. Eye Aspect Ratio (EAR)**
 
-Used to detect whether the eyes are open or closed.
-
-\[
-EAR=\frac{d(p_2,p_6)+d(p_3,p_5)}
-{2d(p_1,p_4)}
-\]
+Used to detect whether the eyes are open or close
 
 **3. Cosine Similarity**
 
 Used to compare two facial embeddings.
 
-\[
-Similarity(A,B)=\frac{A\cdot B}{\|A\|\|B\|}
-\]
-
 **4. L2 Normalization**
 
 Used to normalize facial embedding vectors.
-
-\[
-\hat{A}=\frac{A}{\|A\|_2}
-\]
 
 ## 🗄️ Supabase Database
 
